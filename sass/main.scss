@@ -1,0 +1,42 @@
+// utils
+@import './utils/variables';
+@import './utils/functions';
+@import './utils/mixins';
+@import './utils/placeholders';
+
+// vendors
+
+// base
+
+// layout
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/grid";
+// components
+@import "./components/header";
+@import "./components/loader";
+@import "./components/table";
+@import "./components/footer";
+// pages
+
+// themes
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.black{
+    background: black;
+    height: 200px;
+}
+
+.yellow{
+    background: yellow;
+    height: 200px;
+}
+
+.red{
+    background: red;
+    height: 200px;
+}
